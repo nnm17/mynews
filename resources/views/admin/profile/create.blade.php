@@ -30,9 +30,11 @@
                     <label class="form-check-label" for="release1">性別</label>
                         <div class="form-check form-check-inline">
                             <input type="radio" class="form-check-input" name="release" value="男性" {{ old ('release') == '男性' ? 'checked' : '' }}>
+                            <label for="release1" class="form-check-label">男性</label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input type="radio" class="form-check-input" name="release" value="女性" {{ old ('release') == '女性' ? 'checked' : '' }}>
+                            <label for="release1" class="form-check-label">女性</label>
                         </div>
                     </div>
                     <div class="form-group row">
